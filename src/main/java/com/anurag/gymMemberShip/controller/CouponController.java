@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/coupons")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://gym-member-ship-frontend.vercel.app/")
 public class CouponController {
 
       @Autowired
